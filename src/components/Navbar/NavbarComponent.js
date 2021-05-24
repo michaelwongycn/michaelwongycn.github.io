@@ -5,7 +5,7 @@ import theme from "../../config/theme";
 
 export const Nav = styled.nav`
 	background-color: ${({ scrollNav }) =>
-		scrollNav ? theme.primary : "transparent"};
+		scrollNav ? theme.complementary_3 : "transparent"};
 	height: 12vh;
 	position: sticky;
 	top: 0;
@@ -113,8 +113,7 @@ export const NavLink = styled(LinkScroll)`
 		display: table;
 
 		&:hover {
-			background-color: ${() => theme.primary_dark};
-			color: ${() => theme.secondary_dark};
+			background-color: ${() => theme.complementary_3};
 		}
 	}
 `;

@@ -4,8 +4,8 @@ import theme from "../../config/theme";
 export const Section = styled.section`
 	background: linear-gradient(
 		45deg,
-		${() => theme.complementary_2} 50%,
-		${() => theme.complementary_3} 50%
+		${() => theme.primary} 50%,
+		${() => theme.complementary_2} 50%
 	);
 	background-color: aliceblue;
 	height: 100vh;
@@ -45,7 +45,7 @@ export const Name = styled.h1`
 `;
 
 export const Description = styled.h2`
-	color: ${() => theme.secondary_light};
+	color: ${() => theme.secondary};
 	font-size: 3vh;
 	margin-top: 3vh;
 `;
@@ -84,7 +84,7 @@ export const TwoColumn = styled.div`
 export const CVButton = styled.a`
 	background-color: transparent;
 	padding: 1vh 2vw;
-	color: ${() => theme.complementary_1};
+	color: ${() => theme.secondary};
 	font-size: 18px;
 	text-align: center;
 	border: 3px solid ${() => theme.complementary_1};
@@ -106,7 +106,7 @@ export const CVButton = styled.a`
 export const PortofolioButton = styled.a`
 	background-color: transparent;
 	padding: 1vh 2vw;
-	color: ${() => theme.complementary_1};
+	color: ${() => theme.secondary};
 	font-size: 18px;
 	text-align: center;
 	border: 3px solid ${() => theme.complementary_1};

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Welcome from "../components/Welcome";
 import About from "../components/About";
 import Resume from "../components/Resume";
+import Project from "../components/Project";
 
 function Home() {
 	const [dropdown, dropdownOpen] = useState(false);
@@ -22,6 +23,7 @@ function Home() {
 			<Welcome />
 			<About />
 			<Resume />
+			<Project />
 		</Router>
 	);
 }

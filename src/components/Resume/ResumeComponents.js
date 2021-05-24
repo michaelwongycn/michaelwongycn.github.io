@@ -2,8 +2,8 @@ import styled from "styled-components";
 import theme from "../../config/theme";
 
 export const Section = styled.section`
-	background-color: beige;
-	height: calc(88vh * 5);
+	background-color: ${() => theme.primary};
+	height: calc(88vh * 4.5);
 	display: flex;
 	flex-direction: column;
 `;
@@ -16,7 +16,7 @@ export const ContainerTitle = styled.h1`
 
 export const ExperienceContainer = styled.div`
 	width: 54vw;
-	margin-top: 12vh;
+	margin-top: 16vh;
 	margin-left: 16vw;
 `;
 
@@ -28,27 +28,31 @@ export const EducationContainer = styled.div`
 
 export const UnderlinedItem = styled.div`
 	padding: 4vh 0vw 1vh 0vw;
-	border-bottom: 3px solid ${() => theme.secondary};
+	border-bottom: 3px solid ${() => theme.complementary_1};
 `;
 
 export const Title = styled.p`
+	color: ${() => theme.secondary};
 	font-size: 4vh;
 	font-weight: 500;
 `;
 
 export const Location = styled.p`
 	padding-bottom: 1vh;
+	color: ${() => theme.secondary};
 	font-size: 4vh;
 	font-weight: 500;
 `;
 
 export const Duration = styled.p`
 	padding-bottom: 2vh;
+	color: ${() => theme.secondary};
 	font-size: 3vh;
 	font-weight: 400;
 `;
 
 export const Description = styled.p`
+	color: ${() => theme.secondary};
 	font-size: 3vh;
 	font-weight: 400;
 `;
@@ -80,13 +84,15 @@ export const TechContainer = styled.div`
 
 export const TechItem = styled.div`
 	padding: 4vh 0vw 1vh 0vw;
-	border-bottom: 3px solid ${() => theme.secondary};
+	border-bottom: 3px solid ${() => theme.complementary_1};
 `;
 export const TechName = styled.p`
+	color: ${() => theme.secondary};
 	font-size: 4vh;
 	font-weight: 500;
 `;
 export const TechDescription = styled.p`
+	color: ${() => theme.secondary};
 	font-size: 3vh;
 	font-weight: 400;
 `;
