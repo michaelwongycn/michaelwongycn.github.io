@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../App.css";
 import Navbar from "../components/Navbar";
+import Welcome from "../components/Welcome";
 import About from "../components/About";
+import Resume from "../components/Resume";
 
 function Home() {
 	const [dropdown, dropdownOpen] = useState(false);
@@ -17,8 +19,9 @@ function Home() {
 				toogleDropdown={toogleDropdown}
 				closeDropdown={closeDropdown}
 			/>
+			<Welcome />
 			<About />
-			<About />
+			<Resume />
 		</Router>
 	);
 }

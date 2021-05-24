@@ -1,26 +1,36 @@
 import React from "react";
 import {
 	Section,
-	Textbox,
-	Greeting,
-	Name,
+	Header,
 	Description,
-	CVButton,
+	DataList,
+	Data,
+	Cell,
 } from "./AboutComponents";
-import Pdf from "../../assets/Michael_CV.pdf";
 
 export const About = () => {
 	return (
 		<Section>
-			<Textbox>
-				<Greeting>Welcome!</Greeting>
-				<Name>I am Michael</Name>
-				<Description>
-					Currently, a computer science undergraduate student, I'm passionate
-					about data and software engineering.
-				</Description>
-			</Textbox>
-			<CVButton>my CV</CVButton>
+			<Header>About Me</Header>
+			<Description>
+				I'm a student in Bina Nusantara University, majoring in Computer Science
+				with Software Engineering Streaming, expected to graduate in 2023.
+			</Description>
+			<DataList>
+				<Data>
+					<Cell>Name : </Cell>Michael
+				</Data>
+				<Data>
+					<Cell>Address : </Cell>
+					Jalan Kyai Haji Syahdan Jakarta Barat
+				</Data>
+				<Data>
+					<Cell>Email : </Cell>Michaelwongycn@gmail.com
+				</Data>
+				<Data>
+					<Cell>Phone : </Cell>+62-818-0388-8842
+				</Data>
+			</DataList>
 		</Section>
 	);
 };

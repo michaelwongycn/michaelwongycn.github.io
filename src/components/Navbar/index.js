@@ -14,7 +14,8 @@ export const Navbar = ({ dropdown, toogleDropdown, closeDropdown }) => {
 	const [scrollNav, setScrollNav] = useState(false);
 
 	const changeNav = () => {
-		if (window.scrollY >= 80) {
+		// if (window.scrollY >= 80) {
+		if (window.pageYOffset > window.innerHeight * 0.12) {
 			setScrollNav(true);
 		} else {
 			setScrollNav(false);
@@ -37,6 +38,11 @@ export const Navbar = ({ dropdown, toogleDropdown, closeDropdown }) => {
 					></FasIcon>
 				</HamburgerBar>
 				<NavMenu className={dropdown ? "active" : ""}>
+					<NavItem>
+						<NavLink to="./" onClick={closeDropdown}>
+							Home
+						</NavLink>
+					</NavItem>
 					<NavItem>
 						<NavLink to="./" onClick={closeDropdown}>
 							About

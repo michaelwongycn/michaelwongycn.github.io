@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
 		justify-content: flex-start;
 		position: absolute;
 		top: 12vh;
-		left: -100%;
+		left: -200%;
 		transition: all 0.75s ease;
 
 		&.active {
