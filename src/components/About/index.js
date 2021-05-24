@@ -10,7 +10,7 @@ import {
 
 export const About = () => {
 	return (
-		<Section>
+		<Section id="About">
 			<Header>About Me</Header>
 			<Description>
 				I'm a student at Bina Nusantara University, majoring in Computer Science

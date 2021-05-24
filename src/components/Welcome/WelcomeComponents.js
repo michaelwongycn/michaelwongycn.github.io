@@ -44,7 +44,7 @@ export const Name = styled.h1`
 	margin-top: -3vh;
 `;
 
-export const Description = styled.h2`
+export const Description = styled.p`
 	color: ${() => theme.secondary};
 	font-size: 3vh;
 	margin-top: 3vh;

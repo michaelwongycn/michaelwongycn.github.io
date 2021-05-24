@@ -1,9 +1,9 @@
 import React from "react";
 import {
 	Section,
-	ExperienceContainer,
+	Header,
+	UpperContainer,
 	ContainerTitle,
-	EducationContainer,
 	UnderlinedItem,
 	Title,
 	Location,
@@ -20,8 +20,9 @@ import {
 
 export const Resume = () => {
 	return (
-		<Section>
-			<ExperienceContainer>
+		<Section id="Resume">
+			<Header>Resume</Header>
+			<UpperContainer>
 				<ContainerTitle>Experience</ContainerTitle>
 				<UnderlinedItem>
 					<Title>Associate Member</Title>
@@ -58,8 +59,8 @@ export const Resume = () => {
 						freshmen to familiarize themself with the campus.
 					</Description>
 				</UnderlinedItem>
-			</ExperienceContainer>
-			<EducationContainer>
+			</UpperContainer>
+			<UpperContainer>
 				<ContainerTitle>Education</ContainerTitle>
 				<UnderlinedItem>
 					<Title>Bachelor Degree in Computer Science</Title>
@@ -73,7 +74,7 @@ export const Resume = () => {
 					<Duration>2016 - 2019</Duration>
 					<Description></Description>
 				</UnderlinedItem>
-			</EducationContainer>
+			</UpperContainer>
 			<TwoColumn>
 				<SkillContainer>
 					<ContainerTitle>Skill</ContainerTitle>

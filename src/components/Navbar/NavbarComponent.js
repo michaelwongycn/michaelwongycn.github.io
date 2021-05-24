@@ -99,6 +99,7 @@ export const NavLink = styled(LinkScroll)`
 	align-items: center;
 	color: ${() => theme.secondary};
 	text-decoration: none;
+	cursor: pointer;
 
 	&:hover {
 		border-bottom: 0.75vh solid ${() => theme.secondary};

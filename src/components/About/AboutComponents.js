@@ -8,7 +8,7 @@ export const Section = styled.section`
 	flex-direction: column;
 `;
 
-export const Header = styled.h1`
+export const Header = styled.p`
 	font-size: 12vh;
 	margin-top: 10vh;
 	margin-left: 16vw;
@@ -19,7 +19,7 @@ export const Header = styled.h1`
 	}
 `;
 
-export const Description = styled.h3`
+export const Description = styled.p`
 	font-size: 2.5vh;
 	width: 44vw;
 	margin-top: 4vh;

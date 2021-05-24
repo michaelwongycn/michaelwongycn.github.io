@@ -14,7 +14,6 @@ export const Navbar = ({ dropdown, toogleDropdown, closeDropdown }) => {
 	const [scrollNav, setScrollNav] = useState(false);
 
 	const changeNav = () => {
-		// if (window.scrollY >= 80) {
 		if (window.pageYOffset > window.innerHeight * 0.12) {
 			setScrollNav(true);
 		} else {
@@ -39,27 +38,46 @@ export const Navbar = ({ dropdown, toogleDropdown, closeDropdown }) => {
 				</HamburgerBar>
 				<NavMenu className={dropdown ? "active" : ""}>
 					<NavItem>
-						<NavLink to="./" onClick={closeDropdown}>
+						<NavLink
+							to="Welcome"
+							smooth={true}
+							offset={-70}
+							duration={500}
+							onClick={closeDropdown}
+						>
 							Home
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink to="./" onClick={closeDropdown}>
+						<NavLink
+							to="About"
+							smooth={true}
+							offset={-70}
+							duration={500}
+							onClick={closeDropdown}
+						>
 							About
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink to="/" onClick={closeDropdown}>
+						<NavLink
+							to="Resume"
+							smooth={true}
+							offset={-70}
+							duration={500}
+							onClick={closeDropdown}
+						>
 							Resume
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink to="/" onClick={closeDropdown}>
-							Project
-						</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink to="/" onClick={closeDropdown}>
+						<NavLink
+							to="Contact"
+							smooth={true}
+							offset={-70}
+							duration={750}
+							onClick={closeDropdown}
+						>
 							Contact
 						</NavLink>
 					</NavItem>

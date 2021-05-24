@@ -3,9 +3,20 @@ import theme from "../../config/theme";
 
 export const Section = styled.section`
 	background-color: ${() => theme.primary};
-	height: calc(88vh * 4.5);
+	height: calc(88vh * 4.7);
 	display: flex;
 	flex-direction: column;
+`;
+
+export const Header = styled.p`
+	font-size: 12vh;
+	margin-top: 16vh;
+	margin-left: 16vw;
+	color: ${() => theme.secondary};
+
+	@media screen and (max-width: 768px) {
+		margin-left: 8vw;
+	}
 `;
 
 export const ContainerTitle = styled.h1`
@@ -14,13 +25,7 @@ export const ContainerTitle = styled.h1`
 	font-weight: 600;
 `;
 
-export const ExperienceContainer = styled.div`
-	width: 54vw;
-	margin-top: 16vh;
-	margin-left: 16vw;
-`;
-
-export const EducationContainer = styled.div`
+export const UpperContainer = styled.div`
 	width: 54vw;
 	margin-top: 8vh;
 	margin-left: 16vw;

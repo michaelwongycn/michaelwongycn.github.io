@@ -14,7 +14,7 @@ import Pdf from "../../assets/Michael_CV.pdf";
 
 export const Welcome = () => {
 	return (
-		<Section>
+		<Section id="Welcome">
 			<Textbox>
 				<Greeting>Welcome!</Greeting>
 				<Introduction>I'm</Introduction>
