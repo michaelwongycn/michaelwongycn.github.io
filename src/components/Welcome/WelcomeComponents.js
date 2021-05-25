@@ -13,113 +13,64 @@ export const Section = styled.section`
 	flex-direction: column;
 	justify-content: flex-start;
 	margin-top: -12vh;
-
-	@media screen and (max-width: 768px) {
-		background: ${() => theme.primary};
 `;
 
 export const Textbox = styled.div`
 	text-align: left;
-	width: 48vw;
+	width: 70vw;
 	margin-top: 20vh;
 	margin-left: 16vw;
 
-	@media screen and (max-width: 1024px) {
-		width: 54vw;
-	}
-
 	@media screen and (max-width: 768px) {
-		width: 75vw;
-		margin-left: 8vw;
-	}
-
-	@media screen and (max-width: 426px) {
-		width: 80vw;
 		margin-left: 8vw;
 	}
 `;
 
 export const Greeting = styled.h4`
 	color: ${() => theme.secondary};
-	font-size: 5vh;
+	font-size: 2em;
 `;
 
 export const Introduction = styled.h1`
 	color: ${() => theme.complementary_1};
-	font-size: 4vh;
-	margin-top: 8vh;
+	font-size: 1.5em;
+	margin-top: 10vh;
 	margin-left: 0.3vw;
 `;
 
 export const Name = styled.h1`
 	color: ${() => theme.complementary_1};
-	font-size: 12vh;
+	font-size: 5em;
 	margin-top: -3vh;
-
-	@media screen and (max-width: 426px) {
-		font-size: 8vh;
-		margin-top: -2vh;
-	}
 `;
 
 export const Description = styled.p`
 	color: ${() => theme.secondary};
-	font-size: 3vh;
-	margin-top: 3vh;
+	font-size: 1em;
+	margin-top: 10vh;
 `;
 
 export const TwoColumn = styled.div`
-	width: 28vw;
+	width: 38vw;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 14vh;
+	margin-top: 10vh;
 	margin-left: 16vw;
 
-	@media screen and (max-width: 1320px) {
-		width: 30vw;
-	}
-
-	@media screen and (max-width: 1200px) {
-		width: 32vw;
-	}
-
-	@media screen and (max-width: 1080px) {
-		width: 36vw;
-	}
-
-	@media screen and (max-width: 960px) {
-		width: 42vw;
-	}
-
 	@media screen and (max-width: 768px) {
-		width: 36vw;
-		flex-direction: column;
-		margin-top: 8vh;
+		width: 80vw;
 		margin-left: 8vw;
-	}
-
-	@media screen and (max-width: 426px) {
-		width: 48vw;
-	}
-
-	@media screen and (max-width: 376px) {
-		width: 56vw;
-	}
-
-	@media screen and (max-width: 320px) {
-		width: 64vw;
 	}
 `;
 
 export const CVButton = styled.a`
 	background-color: transparent;
-	padding: 1vh 2vw;
+	padding: 2vh 2vw;
 	color: ${() => theme.secondary};
-	font-size: 18px;
+	font-size: 1em;
 	text-align: center;
-	border: 3px solid ${() => theme.complementary_1};
-	border-radius: 25px;
+	border: 0.2em solid ${() => theme.complementary_1};
+	border-radius: 1.5em;
 	cursor: pointer;
 	text-decoration: none;
 
@@ -129,28 +80,23 @@ export const CVButton = styled.a`
 	}
 
 	@media screen and (max-width: 768px) {
-		padding: 1vh 2vw;
-		margin-bottom: 3vh;
+		padding: 2vh 6vw;
 	}
 `;
 
 export const PortofolioButton = styled.a`
 	background-color: transparent;
-	padding: 1vh 2vw;
+	padding: 2vh 2vw;
 	color: ${() => theme.secondary};
-	font-size: 18px;
+	font-size: 1em;
 	text-align: center;
-	border: 3px solid ${() => theme.complementary_1};
-	border-radius: 25px;
+	border: 0.2em solid ${() => theme.complementary_1};
+	border-radius: 1.5em;
 	cursor: pointer;
 	text-decoration: none;
 
 	&:hover {
 		background-color: ${() => theme.complementary_1};
 		color: ${() => theme.primary};
-	}
-
-	@media screen and (max-width: 768px) {
-		padding: 1vh 2vw;
 	}
 `;

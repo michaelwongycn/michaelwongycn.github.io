@@ -24,7 +24,7 @@ export const About = () => {
 				</Data>
 				<Data>
 					<Cell>Address : </Cell>
-					Jalan Kyai Haji Syahdan Jakarta Barat
+					Jalan K.H. Syahdan Jakarta Barat
 				</Data>
 				<Data>
 					<Cell>Email : </Cell>Michaelwongycn@gmail.com

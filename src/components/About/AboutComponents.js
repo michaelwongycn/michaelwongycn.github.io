@@ -9,39 +9,31 @@ export const Section = styled.section`
 `;
 
 export const Header = styled.p`
-	font-size: 12vh;
-	margin-top: 10vh;
+	font-size: 4em;
+	margin-top: 12vh;
 	margin-left: 16vw;
 	color: ${() => theme.secondary};
 
 	@media screen and (max-width: 768px) {
 		margin-left: 8vw;
-	}
-
-	@media screen and (max-width: 426px) {
-		font-size: 8vh;
 	}
 `;
 
 export const Description = styled.p`
-	font-size: 2.5vh;
+	font-size: 1em;
 	width: 54vw;
-	margin-top: 4vh;
+	margin-top: 12vh;
 	margin-left: 16vw;
 	color: ${() => theme.secondary};
 
 	@media screen and (max-width: 768px) {
-		width: 52vw;
+		width: 70vw;
 		margin-left: 8vw;
-	}
-
-	@media screen and (max-width: 426px) {
-		width: 80vw;
 	}
 `;
 
 export const DataList = styled.ul`
-	font-size: 2.5vh;
+	font-size: 1em;
 	margin-top: 4vh;
 	margin-left: 16vw;
 	list-style: none;
@@ -54,39 +46,10 @@ export const DataList = styled.ul`
 export const Data = styled.li`
 	padding: 1vh 0vw;
 	color: ${() => theme.secondary};
-
-	@media screen and (max-width: 426px) {
-		font-size: 2vh;
-	}
-
-	@media screen and (max-width: 320px) {
-		font-size: 1.7vh;
-	}
 `;
 
 export const Cell = styled.span`
-	width: 7vw;
+	width: 5em;
 	display: inline-block;
 	color: ${() => theme.secondary};
-
-	@media screen and (max-width: 1024px) {
-		width: 9vw;
-	}
-
-	@media screen and (max-width: 768px) {
-		width: 11vw;
-	}
-
-	@media screen and (max-width: 426px) {
-		font-size: 2vh;
-		width: 16vw;
-	}
-
-	@media screen and (max-width: 376px) {
-		width: 20vw;
-	}
-
-	@media screen and (max-width: 320px) {
-		font-size: 1.7vh;
-	}
 `;
