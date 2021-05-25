@@ -13,6 +13,9 @@ export const Section = styled.section`
 	flex-direction: column;
 	justify-content: flex-start;
 	margin-top: -12vh;
+
+	@media screen and (max-width: 768px) {
+		background: ${() => theme.primary};
 `;
 
 export const Textbox = styled.div`
@@ -22,6 +25,7 @@ export const Textbox = styled.div`
 	margin-left: 16vw;
 
 	@media screen and (max-width: 768px) {
+		width: 75vw;
 		margin-left: 8vw;
 	}
 `;
@@ -34,7 +38,7 @@ export const Greeting = styled.h4`
 export const Introduction = styled.h1`
 	color: ${() => theme.complementary_1};
 	font-size: 4vh;
-	margin-top: 15vh;
+	margin-top: 8vh;
 	margin-left: 0.3vw;
 `;
 
@@ -42,6 +46,10 @@ export const Name = styled.h1`
 	color: ${() => theme.complementary_1};
 	font-size: 12vh;
 	margin-top: -3vh;
+
+	@media screen and (max-width: 426px) {
+		font-size: 8vh;
+	}
 `;
 
 export const Description = styled.p`
@@ -77,7 +85,20 @@ export const TwoColumn = styled.div`
 	@media screen and (max-width: 768px) {
 		width: 36vw;
 		flex-direction: column;
+		margin-top: 8vh;
 		margin-left: 8vw;
+	}
+
+	@media screen and (max-width: 426px) {
+		width: 48vw;
+	}
+
+	@media screen and (max-width: 376px) {
+		width: 56vw;
+	}
+
+	@media screen and (max-width: 320px) {
+		width: 64vw;
 	}
 `;
 
