@@ -24,8 +24,17 @@ export const Textbox = styled.div`
 	margin-top: 20vh;
 	margin-left: 16vw;
 
+	@media screen and (max-width: 1024px) {
+		width: 54vw;
+	}
+
 	@media screen and (max-width: 768px) {
 		width: 75vw;
+		margin-left: 8vw;
+	}
+
+	@media screen and (max-width: 426px) {
+		width: 80vw;
 		margin-left: 8vw;
 	}
 `;
@@ -49,6 +58,7 @@ export const Name = styled.h1`
 
 	@media screen and (max-width: 426px) {
 		font-size: 8vh;
+		margin-top: -2vh;
 	}
 `;
 

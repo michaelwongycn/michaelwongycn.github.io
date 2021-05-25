@@ -10,8 +10,7 @@ import {
 	Duration,
 	Description,
 	TwoColumn,
-	SkillContainer,
-	LanguageContainer,
+	LowerContainer,
 	TechContainer,
 	TechItem,
 	TechName,
@@ -76,18 +75,18 @@ export const Resume = () => {
 				</UnderlinedItem>
 			</UpperContainer>
 			<TwoColumn>
-				<SkillContainer>
+				<LowerContainer>
 					<ContainerTitle>Skill</ContainerTitle>
 					<Title>Problem Solving</Title>
 					<Title>Teamwork</Title>
 					<Title>Time Management</Title>
 					<Title>Adaptability</Title>
-				</SkillContainer>
-				<LanguageContainer>
+				</LowerContainer>
+				<LowerContainer>
 					<ContainerTitle>Language</ContainerTitle>
 					<Title>Bahasa Indonesia</Title>
 					<Title>English</Title>
-				</LanguageContainer>
+				</LowerContainer>
 			</TwoColumn>
 			<TechContainer>
 				<ContainerTitle>Technology</ContainerTitle>

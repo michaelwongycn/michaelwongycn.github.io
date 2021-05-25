@@ -25,7 +25,7 @@ export const Header = styled.p`
 
 export const Description = styled.p`
 	font-size: 2.5vh;
-	width: 44vw;
+	width: 54vw;
 	margin-top: 4vh;
 	margin-left: 16vw;
 	color: ${() => theme.secondary};
@@ -36,7 +36,7 @@ export const Description = styled.p`
 	}
 
 	@media screen and (max-width: 426px) {
-		width: 75vw;
+		width: 80vw;
 	}
 `;
 
