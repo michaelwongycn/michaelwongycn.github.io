@@ -2,7 +2,7 @@
   "name": "michaelwongycn.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Michaelwongycn.github.io/michaelwongycn.github.io",
+  "homepage": "http://Michaelwongycn.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
