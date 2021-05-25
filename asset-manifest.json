@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/michaelwongycn.github.io/static/css/main.228555dd.chunk.css",
+    "main.js": "/michaelwongycn.github.io/static/js/main.f1d69da8.chunk.js",
+    "main.js.map": "/michaelwongycn.github.io/static/js/main.f1d69da8.chunk.js.map",
+    "runtime-main.js": "/michaelwongycn.github.io/static/js/runtime-main.4465cc74.js",
+    "runtime-main.js.map": "/michaelwongycn.github.io/static/js/runtime-main.4465cc74.js.map",
+    "static/js/2.82915070.chunk.js": "/michaelwongycn.github.io/static/js/2.82915070.chunk.js",
+    "static/js/2.82915070.chunk.js.map": "/michaelwongycn.github.io/static/js/2.82915070.chunk.js.map",
+    "index.html": "/michaelwongycn.github.io/index.html",
+    "static/css/main.228555dd.chunk.css.map": "/michaelwongycn.github.io/static/css/main.228555dd.chunk.css.map",
+    "static/js/2.82915070.chunk.js.LICENSE.txt": "/michaelwongycn.github.io/static/js/2.82915070.chunk.js.LICENSE.txt",
+    "static/media/Michael_CV.47655111.pdf": "/michaelwongycn.github.io/static/media/Michael_CV.47655111.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4465cc74.js",
+    "static/js/2.82915070.chunk.js",
+    "static/css/main.228555dd.chunk.css",
+    "static/js/main.f1d69da8.chunk.js"
+  ]
+}
