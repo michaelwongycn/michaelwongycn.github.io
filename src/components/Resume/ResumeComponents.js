@@ -3,37 +3,9 @@ import theme from "../../config/theme";
 
 export const Section = styled.section`
 	background-color: ${() => theme.primary};
-	height: calc(88vh * 4);
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
-
-	@media screen and (max-width: 1366px) {
-		height: calc(88vh * 4.2);
-	}
-
-	@media screen and (max-width: 1024px) {
-		height: calc(88vh * 4.4);
-	}
-
-	@media screen and (max-width: 960px) {
-		height: calc(88vh * 4.6);
-	}
-
-	@media screen and (max-width: 768px) {
-		height: calc(88vh * 4.8);
-	}
-
-	@media screen and (max-width: 540px) {
-		height: calc(88vh * 5.2);
-	}
-
-	@media screen and (max-width: 375px) {
-		height: calc(88vh * 5.4);
-	}
-
-	@media screen and (max-width: 320px) {
-		height: calc(88vh * 5.5);
-	}
 `;
 
 export const Header = styled.p`
